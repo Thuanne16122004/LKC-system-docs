@@ -33,7 +33,7 @@ The Harness operates via two primary control mechanisms:
 
 ---
 
-## 3. Control Dimensions: Direction vs. Execution Modality
+## Control Dimensions: Direction vs. Execution Modality
 
 Harness controls are categorized across two fundamental dimensions:
 
@@ -45,7 +45,7 @@ Harness controls are categorized across two fundamental dimensions:
    * ✨ **Inferential (GPU/NPU):** Probabilistic, incurs token costs, evaluates qualitative semantics and architecture intent.
 
 
-## 4. Change Lifecycle & Shift-Left Feedback
+## Change Lifecycle & Shift-Left Feedback
 
 To optimize token costs and accelerate delivery speed (Shift-Left Quality), feedback sensors are distributed strategically across the development lifecycle:
 
@@ -54,7 +54,7 @@ To optimize token costs and accelerate delivery speed (Shift-Left Quality), feed
 
 ---
 
-## 5. Out-of-Lifecycle Continuous Governance
+## Out-of-Lifecycle Continuous Governance
 
 Background sensors run continuously outside the active change lifecycle to detect system degradation:
 
@@ -63,7 +63,7 @@ Background sensors run continuously outside the active change lifecycle to detec
 
 ---
 
-## 6. Three Categories of Regulation
+## Three Categories of Regulation
 
 The Harness system regulates three distinct quality domains:
 
