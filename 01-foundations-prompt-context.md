@@ -6,7 +6,14 @@ Large Language Models (LLMs) do not possess inherent long-term memory at inferen
 
 ## 1. Prompt Engineering
 
+### Definition
 Prompt engineering is the practice of designing, testing, and refining input queries to guide generative AI models toward producing precise, context-aware, and actionable outputs with minimal post-processing.
+
+### The Universal Prompt Formula
+To achieve predictable results, every enterprise prompt should adhere to the 5-component formula:
+
+$$\text{Prompt} = \text{Role} + \text{Task} + \text{Context} + \text{Rules} + \text{Format}$$
+
 
 ### Core Skills of a Prompt Engineer
 To effectively optimize AI performance and collaborate across technical and business units, a qualified Prompt Engineer requires a mix of technical, analytical, and interpersonal competencies:
@@ -34,7 +41,16 @@ To effectively optimize AI performance and collaborate across technical and busi
 
 ## 2. Context Engineering
 
-Context engineering is the overarching discipline of deliberately designing, structuring, and optimizing *everything* an LLM sees at inference time. It treats the context window as the model's short-term working memory.
+### Definition
+Context Engineering is the systematic management of the entire information environment around an AI model, including memory, system prompts, conversation history, and dynamic business rules.
+
+> **Prompt Engineering vs. Context Engineering:**
+> * **Prompt Engineering:** Writing **one single memo** for a specific, immediate task.
+> * **Context Engineering:** Managing the **entire company rulebook, Standard Operating Procedures (SOPs), and persona** surrounding the AI worker.
+
+### Why Context Engineering Matters
+* **Prevents Memory Degradation:** Keeps the AI from "forgetting" critical instructions during long multi-turn conversations.
+* **Ensures Alignment:** Maintains consistent tone, brand voice, security compliance, and organizational boundaries across all interactions.
 
 ### Elements of Context at Inference Time
 * **System Prompt:** Core rules, guidelines, operational constraints, and persona.

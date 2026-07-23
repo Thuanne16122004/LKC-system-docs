@@ -21,7 +21,7 @@ Deploying RAG and Agentic AI into production requires scalable **data infrastruc
 
 To grant AI agents operational autonomy—especially in coding and software delivery—developers must build an outer **Harness**.
 
-Agent =Model + Harness
+$$\text{Agent} = \text{Model} + \text{Harness}$$
 
 A harness is a cybernetic governor that combines feedforward guides and feedback sensors to keep autonomous agents bounded and self-correcting.
 
